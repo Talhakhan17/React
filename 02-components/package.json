@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "ui-design-proj",
-=======
-  "name": "my-react-app",
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
+  "name": "02-components",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,18 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@tailwindcss/vite": "^4.3.1",
-    "lucide-react": "^1.22.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "tailwindcss": "^4.3.1"
-=======
     "lucide-react": "^1.21.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "remixicon": "^4.9.1"
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

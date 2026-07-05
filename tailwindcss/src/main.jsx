@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 import { StrictMode } from 'react'
-=======
-// import { StrictMode } from 'react'
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-<<<<<<< HEAD
   <StrictMode>
     <App />
   </StrictMode>,
-=======
-    <App />
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
 )

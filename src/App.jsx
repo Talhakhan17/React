@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 
 import Sec1 from "./Components/Section1/Sec1";
@@ -34,3 +35,20 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from 'react'
+
+const App = () => {
+  return (
+    <div id="parent">
+      <h1 id='child'>Hello World</h1>
+      <h2>Hello </h2>
+
+      
+    </div>
+  )
+  
+}
+
+export default App
+>>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
