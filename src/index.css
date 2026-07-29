@@ -1,69 +1,33 @@
-<<<<<<< HEAD
 @import "tailwindcss";
-=======
-<<<<<<< HEAD
-* {
-  /* box-sizing: border-box; */
-  margin: 0;
-  padding: 0;
-  /* background-color: #000000; */
-}
 
-h1 {
-  /* color: rgb(252, 252, 252); */
-  position: absolute;
-  font-size: 100px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-decoration: underline;
-  font-weight: 100;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-h2 {
-  /* color: white; */
-  font: 900;
-  /* background-color: #ffffff00; */
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-decoration: none;
-  padding: 20px 50px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.nav .links {
-  color: black;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-=======
-<<<<<<< HEAD
 @import "tailwindcss";
-/* @import "@fontsource/poppins"; */
 
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
 body {
   font-family: "Poppins", sans-serif;
-=======
-
-
-html,body{
-  color: #ffffff;
-  background-color: #000;
-  font-size: 1rem;
-  font-family: 'Courier New', Courier, monospace;
-  box-sizing: border-box;
-
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
 }
->>>>>>> 5f33919344d8aae4d8a4e8c83d6d75ff768195e0
->>>>>>> c5871be60692d664b3c1a63a5a2976d811cb1cc7
+
+
+h1{
+    font-size: 100px;
+    transform: translate(-50% , -50% );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: underline;
+    font-weight: 600;
+}
+h2{
+    font-size: 50Px;
+    transform: translate(-50% , -50% );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: underline;
+    font-weight: 600;
+    color: red;
+}

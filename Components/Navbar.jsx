@@ -1,20 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
+import React from 'react'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
-  return (
-    <div>
-      <div className="nav">
-        <h2>Talha</h2>
-        <div className="links">
-          <Link to="/">Home </Link>
-          <Link to="/About">About</Link>
-          <Link to="/Contact">Contact</Link>
-          <Link to="/Product">Product</Link>
-        </div>
-      </div>
-    </div>
-  );
-};
+  return ( 
+    <div className='flex justify-between py-5 px-8 items-center font-poppins'>
 
-export default Navbar;
+        <h3 className='text-xl font-bold'>
+            Talha
+        </h3>
+        <div className=' gap-10 flex font-medium  '>
+          
+          <Link className='text-lg font-medium' to='/'>Home</Link>
+          <Link className='text-lg font-medium' to='/About'>About</Link>
+          <Link className='text-lg font-medium' to='/Course'>Courses</Link>
+          <Link className='text-lg font-medium' to='/Product'>Product</Link>
+
+          
+        </div>
+    </div>
+  )
+}
+
+export default Navbar

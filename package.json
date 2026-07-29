@@ -1,17 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "advance-routing",
-=======
-<<<<<<< HEAD
-  "name": "router",
-=======
-<<<<<<< HEAD
-  "name": "ui-design-proj",
-=======
-  "name": "my-react-app",
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
->>>>>>> 5f33919344d8aae4d8a4e8c83d6d75ff768195e0
->>>>>>> c5871be60692d664b3c1a63a5a2976d811cb1cc7
+  "name": "react-js-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,17 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@tailwindcss/vite": "^4.3.3",
+    "lucide-react": "^1.22.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.2",
+    "remixicon": "^4.9.1",
     "tailwindcss": "^4.3.3"
-=======
-<<<<<<< HEAD
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "react-router-dom": "^7.18.1"
->>>>>>> c5871be60692d664b3c1a63a5a2976d811cb1cc7
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -44,33 +28,5 @@
     "eslint-plugin-react-refresh": "^0.5.3",
     "globals": "^17.7.0",
     "vite": "^8.1.1"
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-    "@tailwindcss/vite": "^4.3.1",
-    "lucide-react": "^1.22.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "tailwindcss": "^4.3.1"
-=======
-    "lucide-react": "^1.21.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "remixicon": "^4.9.1"
->>>>>>> 66b815bbdcb843141fb0237f692f9b4ef9adc2b7
-  },
-  "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "eslint": "^10.3.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.6.0",
-    "vite": "^8.0.12"
->>>>>>> 5f33919344d8aae4d8a4e8c83d6d75ff768195e0
->>>>>>> c5871be60692d664b3c1a63a5a2976d811cb1cc7
   }
 }
